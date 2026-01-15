@@ -1,5 +1,6 @@
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -19,7 +20,7 @@ public class Ticket {
      */
     public Ticket(String nombreCliente, List<Vehiculo> vehiculosComprados) {
         this.nombreCliente = nombreCliente;
-        this.vehiculosComprados = vehiculosComprados;
+        this.vehiculosComprados = new ArrayList<>(vehiculosComprados);
         this.fechaTransaccion = LocalDateTime.now();
         this.total = calcularTotal();
     }
