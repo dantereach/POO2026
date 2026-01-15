@@ -9,41 +9,40 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ConsoleUI {
-    private Scanner scanner;
     private InventarioManager inventarioManager;
     private TicketGenerator ticketGenerator;
 
     public ConsoleUI() {
-        this.scanner = new Scanner(System.in);
         this.inventarioManager = new InventarioManager();
         this.ticketGenerator = new TicketGenerator();
     }
 
     public void iniciar() {
-        mostrarBienvenida();
-        
-        // Paso 1: Mostrar inventario
-        inventarioManager.mostrarInventario();
-        
-        // Paso 2: Seleccionar vehículos
-        List<Vehiculo> vehiculosSeleccionados = seleccionarVehiculos();
-        
-        if (vehiculosSeleccionados.isEmpty()) {
-            System.out.println("No se seleccionaron vehículos. Programa terminado.");
-            return;
+        try (Scanner scanner = new Scanner(System.in)) {
+            mostrarBienvenida();
+            
+            // Paso 1: Mostrar inventario
+            inventarioManager.mostrarInventario();
+            
+            // Paso 2: Seleccionar vehículos
+            List<Vehiculo> vehiculosSeleccionados = seleccionarVehiculos(scanner);
+            
+            if (vehiculosSeleccionados.isEmpty()) {
+                System.out.println("No se seleccionaron vehículos. Programa terminado.");
+                return;
+            }
+            
+            // Paso 3: Solicitar nombre del cliente
+            String nombreCliente = solicitarNombreCliente(scanner);
+            
+            // Paso 4: Generar ticket
+            Ticket ticket = ticketGenerator.generarTicket(nombreCliente, vehiculosSeleccionados);
+            
+            // Paso 5: Mostrar ticket
+            ticketGenerator.mostrarTicket(ticket);
+            
+            System.out.println("¡Gracias por su compra!");
         }
-        
-        // Paso 3: Solicitar nombre del cliente
-        String nombreCliente = solicitarNombreCliente();
-        
-        // Paso 4: Generar ticket
-        Ticket ticket = ticketGenerator.generarTicket(nombreCliente, vehiculosSeleccionados);
-        
-        // Paso 5: Mostrar ticket
-        ticketGenerator.mostrarTicket(ticket);
-        
-        System.out.println("¡Gracias por su compra!");
-        scanner.close();
     }
 
     private void mostrarBienvenida() {
@@ -52,7 +51,7 @@ public class ConsoleUI {
         System.out.println("╚════════════════════════════════════════╝\n");
     }
 
-    private List<Vehiculo> seleccionarVehiculos() {
+    private List<Vehiculo> seleccionarVehiculos(Scanner scanner) {
         List<Vehiculo> seleccionados = new ArrayList<>();
         boolean continuarSeleccionando = true;
 
@@ -79,7 +78,7 @@ public class ConsoleUI {
         return seleccionados;
     }
 
-    private String solicitarNombreCliente() {
+    private String solicitarNombreCliente(Scanner scanner) {
         String nombre = "";
         boolean nombreValido = false;
 

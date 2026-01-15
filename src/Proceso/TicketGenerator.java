@@ -19,6 +19,9 @@ public class TicketGenerator {
     }
     
     public void mostrarTicket(Ticket ticket) {
+        if (ticket == null) {
+            throw new IllegalArgumentException("El ticket no puede ser nulo");
+        }
         System.out.println(ticket);
     }
 }

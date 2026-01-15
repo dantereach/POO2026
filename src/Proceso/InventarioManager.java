@@ -2,6 +2,7 @@ package Proceso;
 
 import Data.Vehiculo;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class InventarioManager {
@@ -24,7 +25,7 @@ public class InventarioManager {
     }
 
     public List<Vehiculo> getInventario() {
-        return inventario;
+        return Collections.unmodifiableList(inventario);
     }
 
     public Vehiculo getVehiculoPorId(int id) {

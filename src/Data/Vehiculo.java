@@ -8,6 +8,22 @@ public class Vehiculo {
     private double precio;
 
     public Vehiculo(int id, String marca, String modelo, int anio, double precio) {
+        if (id <= 0) {
+            throw new IllegalArgumentException("El ID debe ser mayor a 0");
+        }
+        if (marca == null || marca.trim().isEmpty()) {
+            throw new IllegalArgumentException("La marca no puede estar vacía");
+        }
+        if (modelo == null || modelo.trim().isEmpty()) {
+            throw new IllegalArgumentException("El modelo no puede estar vacío");
+        }
+        if (anio < 1900) {
+            throw new IllegalArgumentException("El año debe ser mayor a 1900");
+        }
+        if (precio < 0) {
+            throw new IllegalArgumentException("El precio no puede ser negativo");
+        }
+        
         this.id = id;
         this.marca = marca;
         this.modelo = modelo;
