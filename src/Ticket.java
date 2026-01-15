@@ -1,5 +1,6 @@
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -40,7 +41,7 @@ public class Ticket {
     }
 
     public List<Vehiculo> getVehiculosComprados() {
-        return vehiculosComprados;
+        return Collections.unmodifiableList(vehiculosComprados);
     }
 
     public double getTotal() {

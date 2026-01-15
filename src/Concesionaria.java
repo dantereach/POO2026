@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -31,10 +32,10 @@ public class Concesionaria {
 
     /**
      * Obtiene el inventario completo
-     * @return Lista de vehículos en inventario
+     * @return Lista inmutable de vehículos en inventario
      */
     public List<Vehiculo> getInventario() {
-        return inventario;
+        return Collections.unmodifiableList(inventario);
     }
 
     /**
