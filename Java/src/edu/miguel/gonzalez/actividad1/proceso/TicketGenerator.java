@@ -1,7 +1,7 @@
-package edu.miguel.gonzalez.actividad1.Proceso;
+package edu.miguel.gonzalez.actividad1.proceso;
 
-import edu.miguel.gonzalez.actividad1.Data.Ticket;
-import edu.miguel.gonzalez.actividad1.Data.Vehiculo;
+import edu.miguel.gonzalez.actividad1.data.Ticket;
+import edu.miguel.gonzalez.actividad1.data.Vehiculo;
 import java.util.List;
 
     public class TicketGenerator {

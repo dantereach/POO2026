@@ -1,10 +1,10 @@
 package edu.miguel.gonzalez.actividad1.ui;
 
 
-import edu.miguel.gonzalez.actividad1.Data.Ticket;
-import edu.miguel.gonzalez.actividad1.Proceso.InventarioManager;
-import edu.miguel.gonzalez.actividad1.Proceso.TicketGenerator;
-import edu.miguel.gonzalez.actividad1.Data.Vehiculo;
+import edu.miguel.gonzalez.actividad1.data.Ticket;
+import edu.miguel.gonzalez.actividad1.proceso.InventarioManager;
+import edu.miguel.gonzalez.actividad1.proceso.TicketGenerator;
+import edu.miguel.gonzalez.actividad1.data.Vehiculo;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

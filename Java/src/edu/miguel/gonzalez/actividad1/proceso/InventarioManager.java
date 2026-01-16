@@ -1,6 +1,6 @@
-package edu.miguel.gonzalez.actividad1.Proceso;
+package edu.miguel.gonzalez.actividad1.proceso;
 
-import edu.miguel.gonzalez.actividad1.Data.Vehiculo;
+import edu.miguel.gonzalez.actividad1.data.Vehiculo;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

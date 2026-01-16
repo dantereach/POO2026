@@ -1,4 +1,4 @@
-package edu.miguel.gonzalez.actividad1.Data;
+package edu.miguel.gonzalez.actividad1.data;
 
 
     public class Vehiculo {
