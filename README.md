@@ -1,4 +1,4 @@
-# Venta de Vehículos - CLI
+# Actividad 1: Venta de Vehículos - CLI
 
 Este proyecto es una aplicación de línea de comandos (CLI) desarrollada en Java que simula la venta de vehículos en una concesionaria. Permite al usuario visualizar los vehículos disponibles, seleccionar uno o más vehículos para comprar, y generar un ticket de venta con un resumen de la transacción.
 
@@ -87,7 +87,7 @@ Si deseas mejorar el proyecto o corregir algún error, eres bienvenido a contrib
 
 ## Licencia
 
-Este proyecto está bajo la [Licencia MIT](LICENSE).
+Este proyecto está bajo la licencia de poder hacer lo que quieras lol.
 
 ## Autor
 
