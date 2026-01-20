@@ -1,5 +1,4 @@
 package edu.miguel.gonzalez.actividad2.proceso;
-
 /**
  * Interfaz que representa una operación matemática
  * con dos operandos de tipo {@code double}.

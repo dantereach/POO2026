@@ -6,6 +6,17 @@ package edu.miguel.gonzalez.actividad2.proceso;
 public class suma implements operacion {
 
     /**
+     * Realiza la suma de dos números.
+     *
+     * @param a primer sumando
+     * @param b segundo sumando
+     * @return la suma de a y b
+     */
+    public static double realizarOperacion(double a, double b) {
+        return a + b;
+    }
+
+    /**
      * Suma dos números.
      *
      * @param a primer sumando
@@ -13,6 +24,6 @@ public class suma implements operacion {
      * @return la suma de a y b
      */
     public double ejecutar(double a, double b) {
-        return a + b;
+        return realizarOperacion(a, b);
     }
 }
