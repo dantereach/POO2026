@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="574a6cb6-327a-45ee-ae36-cee60368626e" name="Changes" comment="Calculadora Avanzada en Java&#10;Descripción:&#10;&#10;Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas. El programa solicita al usuario que elija una operación del menú, ingrese dos números y muestra el resultado correspondiente.&#10;&#10;Operaciones disponibles:&#10;&#10;Suma&#10;Resta&#10;Multiplicación&#10;División&#10;Potencia (a elevado a b)&#10;Raíz (raíz de índice b del número a)&#10;Logaritmo (logaritmo de a en base b)&#10;Módulo (resto de la división)&#10;Estructura del proyecto:&#10;&#10;El programa está organizado en 2 packages principales:&#10;&#10;edu.miguel.gonzalez.actividad2.proceso: Contiene la lógica de negocio. Incluye la interfaz Operacion y una clase independiente para cada operación matemática, aplicando el patrón de estrategia.&#10;&#10;edu.miguel.gonzalez.actividad2.ui: Gestiona la interfaz de usuario por consola, mostrando el menú, validando entradas y ejecutando las operaciones seleccionadas.&#10;&#10;Main: Clase principal que ejecuta el programa.&#10;&#10;Características técnicas:&#10;&#10;Programación orientada a objetos&#10;Uso de interfaces para abstraer operaciones&#10;Documentación completa con JavaDoc&#10;Manejo de excepciones (división por cero, logaritmos inválidos, etc.)&#10;Validación de entrada de datos&#10;&#10;Incluye diagrama de clases que demuestra el funcionamiento del programa.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/logaritmo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/logaritmo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/modulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/modulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/multiplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/multiplicacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/operacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/operacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/potencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/potencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/raiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/raiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/resta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/resta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/suma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/suma.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Actividad-2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="38LDDNmFUJTIRhvmBtXj9zpr9pT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Actividad--2&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/deck/IdeaProjects/POO2026/src&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/deck/IdeaProjects/POO2026/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="574a6cb6-327a-45ee-ae36-cee60368626e" name="Changes" comment="" />
+      <created>1768569836440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768569836440</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Se agregó la clase Main como punto de entrada.&#10;Se creó la clase CLI en el paquete ui para manejar la interacción y mostrar el estado del Switch.&#10;Se implementó la clase Switch en el paquete process con métodos para encender, apagar y verificar el estado.">
+      <option name="closed" value="true" />
+      <created>1768574425345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768574425346</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Descripción&#10;Programa en Java que permite a los usuarios gestionar ventas de vehículos en una concesionaria. El sistema muestra un inventario de vehículos, permite seleccionar uno o más vehículos, solicita información del cliente y genera un ticket de venta.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
+      <option name="closed" value="true" />
+      <created>1768576842303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768576842303</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Descripción&#10;Programa en Java que permite a los usuarios gestionar ventas de vehículos en una concesionaria. El sistema muestra un inventario de vehículos, permite seleccionar uno o más vehículos, solicita información del cliente y genera un ticket de venta.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
+      <option name="closed" value="true" />
+      <created>1768580432616</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768580432616</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Descripción&#10;Programa en Java que permite a los usuarios gestionar ventas de vehículos en una concesionaria. El sistema muestra un inventario de vehículos, permite seleccionar uno o más vehículos, solicita información del cliente y genera un ticket de venta.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
+      <option name="closed" value="true" />
+      <created>1768875296581</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768875296582</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Descripción&#10;Programa en Java que permite a los usuarios gestionar ventas de vehículos en una concesionaria. El sistema muestra un inventario de vehículos, permite seleccionar uno o más vehículos, solicita información del cliente y genera un ticket de venta.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
+      <option name="closed" value="true" />
+      <created>1768875437978</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768875437978</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Calculadora Avanzada en Java&#10;Descripción:&#10;&#10;Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas. El programa solicita al usuario que elija una operación del menú, ingrese dos números y muestra el resultado correspondiente.&#10;&#10;Operaciones disponibles:&#10;&#10;Suma&#10;Resta&#10;Multiplicación&#10;División&#10;Potencia (a elevado a b)&#10;Raíz (raíz de índice b del número a)&#10;Logaritmo (logaritmo de a en base b)&#10;Módulo (resto de la división)&#10;Estructura del proyecto:&#10;&#10;El programa está organizado en 2 packages principales:&#10;&#10;edu.miguel.gonzalez.actividad2.proceso: Contiene la lógica de negocio. Incluye la interfaz Operacion y una clase independiente para cada operación matemática, aplicando el patrón de estrategia.&#10;&#10;edu.miguel.gonzalez.actividad2.ui: Gestiona la interfaz de usuario por consola, mostrando el menú, validando entradas y ejecutando las operaciones seleccionadas.&#10;&#10;Main: Clase principal que ejecuta el programa.&#10;&#10;Características técnicas:&#10;&#10;Programación orientada a objetos&#10;Uso de interfaces para abstraer operaciones&#10;Documentación completa con JavaDoc&#10;Manejo de excepciones (división por cero, logaritmos inválidos, etc.)&#10;Validación de entrada de datos&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
+      <option name="closed" value="true" />
+      <created>1768876858616</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768876858616</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Calculadora Avanzada en Java&#10;Descripción:&#10;&#10;Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas. El programa solicita al usuario que elija una operación del menú, ingrese dos números y muestra el resultado correspondiente.&#10;&#10;Operaciones disponibles:&#10;&#10;Suma&#10;Resta&#10;Multiplicación&#10;División&#10;Potencia (a elevado a b)&#10;Raíz (raíz de índice b del número a)&#10;Logaritmo (logaritmo de a en base b)&#10;Módulo (resto de la división)&#10;Estructura del proyecto:&#10;&#10;El programa está organizado en 2 packages principales:&#10;&#10;edu.miguel.gonzalez.actividad2.proceso: Contiene la lógica de negocio. Incluye la interfaz Operacion y una clase independiente para cada operación matemática, aplicando el patrón de estrategia.&#10;&#10;edu.miguel.gonzalez.actividad2.ui: Gestiona la interfaz de usuario por consola, mostrando el menú, validando entradas y ejecutando las operaciones seleccionadas.&#10;&#10;Main: Clase principal que ejecuta el programa.&#10;&#10;Características técnicas:&#10;&#10;Programación orientada a objetos&#10;Uso de interfaces para abstraer operaciones&#10;Documentación completa con JavaDoc&#10;Manejo de excepciones (división por cero, logaritmos inválidos, etc.)&#10;Validación de entrada de datos&#10;&#10;Incluye diagrama de clases que demuestra el funcionamiento del programa.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
+      <option name="closed" value="true" />
+      <created>1768878248547</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1768878248547</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Calculadora Avanzada en Java&#10;Descripción:&#10;&#10;Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas. El programa solicita al usuario que elija una operación del menú, ingrese dos números y muestra el resultado correspondiente.&#10;&#10;Operaciones disponibles:&#10;&#10;Suma&#10;Resta&#10;Multiplicación&#10;División&#10;Potencia (a elevado a b)&#10;Raíz (raíz de índice b del número a)&#10;Logaritmo (logaritmo de a en base b)&#10;Módulo (resto de la división)&#10;Estructura del proyecto:&#10;&#10;El programa está organizado en 2 packages principales:&#10;&#10;edu.miguel.gonzalez.actividad2.proceso: Contiene la lógica de negocio. Incluye la interfaz Operacion y una clase independiente para cada operación matemática, aplicando el patrón de estrategia.&#10;&#10;edu.miguel.gonzalez.actividad2.ui: Gestiona la interfaz de usuario por consola, mostrando el menú, validando entradas y ejecutando las operaciones seleccionadas.&#10;&#10;Main: Clase principal que ejecuta el programa.&#10;&#10;Características técnicas:&#10;&#10;Programación orientada a objetos&#10;Uso de interfaces para abstraer operaciones&#10;Documentación completa con JavaDoc&#10;Manejo de excepciones (división por cero, logaritmos inválidos, etc.)&#10;Validación de entrada de datos&#10;&#10;Incluye diagrama de clases que demuestra el funcionamiento del programa.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
+      <option name="closed" value="true" />
+      <created>1768880712751</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1768880712751</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Calculadora Avanzada en Java&#10;Descripción:&#10;&#10;Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas. El programa solicita al usuario que elija una operación del menú, ingrese dos números y muestra el resultado correspondiente.&#10;&#10;Operaciones disponibles:&#10;&#10;Suma&#10;Resta&#10;Multiplicación&#10;División&#10;Potencia (a elevado a b)&#10;Raíz (raíz de índice b del número a)&#10;Logaritmo (logaritmo de a en base b)&#10;Módulo (resto de la división)&#10;Estructura del proyecto:&#10;&#10;El programa está organizado en 2 packages principales:&#10;&#10;edu.miguel.gonzalez.actividad2.proceso: Contiene la lógica de negocio. Incluye la interfaz Operacion y una clase independiente para cada operación matemática, aplicando el patrón de estrategia.&#10;&#10;edu.miguel.gonzalez.actividad2.ui: Gestiona la interfaz de usuario por consola, mostrando el menú, validando entradas y ejecutando las operaciones seleccionadas.&#10;&#10;Main: Clase principal que ejecuta el programa.&#10;&#10;Características técnicas:&#10;&#10;Programación orientada a objetos&#10;Uso de interfaces para abstraer operaciones&#10;Documentación completa con JavaDoc&#10;Manejo de excepciones (división por cero, logaritmos inválidos, etc.)&#10;Validación de entrada de datos&#10;&#10;Incluye diagrama de clases que demuestra el funcionamiento del programa.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
+      <option name="closed" value="true" />
+      <created>1768883053223</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1768883053223</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Calculadora Avanzada en Java&#10;Descripción:&#10;&#10;Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas. El programa solicita al usuario que elija una operación del menú, ingrese dos números y muestra el resultado correspondiente.&#10;&#10;Operaciones disponibles:&#10;&#10;Suma&#10;Resta&#10;Multiplicación&#10;División&#10;Potencia (a elevado a b)&#10;Raíz (raíz de índice b del número a)&#10;Logaritmo (logaritmo de a en base b)&#10;Módulo (resto de la división)&#10;Estructura del proyecto:&#10;&#10;El programa está organizado en 2 packages principales:&#10;&#10;edu.miguel.gonzalez.actividad2.proceso: Contiene la lógica de negocio. Incluye la interfaz Operacion y una clase independiente para cada operación matemática, aplicando el patrón de estrategia.&#10;&#10;edu.miguel.gonzalez.actividad2.ui: Gestiona la interfaz de usuario por consola, mostrando el menú, validando entradas y ejecutando las operaciones seleccionadas.&#10;&#10;Main: Clase principal que ejecuta el programa.&#10;&#10;Características técnicas:&#10;&#10;Programación orientada a objetos&#10;Uso de interfaces para abstraer operaciones&#10;Documentación completa con JavaDoc&#10;Manejo de excepciones (división por cero, logaritmos inválidos, etc.)&#10;Validación de entrada de datos&#10;&#10;Incluye diagrama de clases que demuestra el funcionamiento del programa.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
+      <option name="closed" value="true" />
+      <created>1768883205550</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1768883205550</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Calculadora Avanzada en Java&#10;Descripción:&#10;&#10;Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas. El programa solicita al usuario que elija una operación del menú, ingrese dos números y muestra el resultado correspondiente.&#10;&#10;Operaciones disponibles:&#10;&#10;Suma&#10;Resta&#10;Multiplicación&#10;División&#10;Potencia (a elevado a b)&#10;Raíz (raíz de índice b del número a)&#10;Logaritmo (logaritmo de a en base b)&#10;Módulo (resto de la división)&#10;Estructura del proyecto:&#10;&#10;El programa está organizado en 2 packages principales:&#10;&#10;edu.miguel.gonzalez.actividad2.proceso: Contiene la lógica de negocio. Incluye la interfaz Operacion y una clase independiente para cada operación matemática, aplicando el patrón de estrategia.&#10;&#10;edu.miguel.gonzalez.actividad2.ui: Gestiona la interfaz de usuario por consola, mostrando el menú, validando entradas y ejecutando las operaciones seleccionadas.&#10;&#10;Main: Clase principal que ejecuta el programa.&#10;&#10;Características técnicas:&#10;&#10;Programación orientada a objetos&#10;Uso de interfaces para abstraer operaciones&#10;Documentación completa con JavaDoc&#10;Manejo de excepciones (división por cero, logaritmos inválidos, etc.)&#10;Validación de entrada de datos&#10;&#10;Incluye diagrama de clases que demuestra el funcionamiento del programa.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
+      <option name="closed" value="true" />
+      <created>1768883335483</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1768883335483</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Calculadora Avanzada en Java&#10;Descripción:&#10;&#10;Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas. El programa solicita al usuario que elija una operación del menú, ingrese dos números y muestra el resultado correspondiente.&#10;&#10;Operaciones disponibles:&#10;&#10;Suma&#10;Resta&#10;Multiplicación&#10;División&#10;Potencia (a elevado a b)&#10;Raíz (raíz de índice b del número a)&#10;Logaritmo (logaritmo de a en base b)&#10;Módulo (resto de la división)&#10;Estructura del proyecto:&#10;&#10;El programa está organizado en 2 packages principales:&#10;&#10;edu.miguel.gonzalez.actividad2.proceso: Contiene la lógica de negocio. Incluye la interfaz Operacion y una clase independiente para cada operación matemática, aplicando el patrón de estrategia.&#10;&#10;edu.miguel.gonzalez.actividad2.ui: Gestiona la interfaz de usuario por consola, mostrando el menú, validando entradas y ejecutando las operaciones seleccionadas.&#10;&#10;Main: Clase principal que ejecuta el programa.&#10;&#10;Características técnicas:&#10;&#10;Programación orientada a objetos&#10;Uso de interfaces para abstraer operaciones&#10;Documentación completa con JavaDoc&#10;Manejo de excepciones (división por cero, logaritmos inválidos, etc.)&#10;Validación de entrada de datos&#10;&#10;Incluye diagrama de clases que demuestra el funcionamiento del programa.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
+      <option name="closed" value="true" />
+      <created>1768884723661</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1768884723661</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se agregó la clase Main como punto de entrada.&#10;Se creó la clase CLI en el paquete ui para manejar la interacción y mostrar el estado del Switch.&#10;Se implementó la clase Switch en el paquete process con métodos para encender, apagar y verificar el estado." />
+    <MESSAGE value="Descripción&#10;Programa en Java que permite a los usuarios gestionar ventas de vehículos en una concesionaria. El sistema muestra un inventario de vehículos, permite seleccionar uno o más vehículos, solicita información del cliente y genera un ticket de venta.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano" />
+    <MESSAGE value="Calculadora Avanzada en Java&#10;Descripción:&#10;&#10;Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas. El programa solicita al usuario que elija una operación del menú, ingrese dos números y muestra el resultado correspondiente.&#10;&#10;Operaciones disponibles:&#10;&#10;Suma&#10;Resta&#10;Multiplicación&#10;División&#10;Potencia (a elevado a b)&#10;Raíz (raíz de índice b del número a)&#10;Logaritmo (logaritmo de a en base b)&#10;Módulo (resto de la división)&#10;Estructura del proyecto:&#10;&#10;El programa está organizado en 2 packages principales:&#10;&#10;edu.miguel.gonzalez.actividad2.proceso: Contiene la lógica de negocio. Incluye la interfaz Operacion y una clase independiente para cada operación matemática, aplicando el patrón de estrategia.&#10;&#10;edu.miguel.gonzalez.actividad2.ui: Gestiona la interfaz de usuario por consola, mostrando el menú, validando entradas y ejecutando las operaciones seleccionadas.&#10;&#10;Main: Clase principal que ejecuta el programa.&#10;&#10;Características técnicas:&#10;&#10;Programación orientada a objetos&#10;Uso de interfaces para abstraer operaciones&#10;Documentación completa con JavaDoc&#10;Manejo de excepciones (división por cero, logaritmos inválidos, etc.)&#10;Validación de entrada de datos&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano" />
+    <MESSAGE value="Calculadora Avanzada en Java&#10;Descripción:&#10;&#10;Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas. El programa solicita al usuario que elija una operación del menú, ingrese dos números y muestra el resultado correspondiente.&#10;&#10;Operaciones disponibles:&#10;&#10;Suma&#10;Resta&#10;Multiplicación&#10;División&#10;Potencia (a elevado a b)&#10;Raíz (raíz de índice b del número a)&#10;Logaritmo (logaritmo de a en base b)&#10;Módulo (resto de la división)&#10;Estructura del proyecto:&#10;&#10;El programa está organizado en 2 packages principales:&#10;&#10;edu.miguel.gonzalez.actividad2.proceso: Contiene la lógica de negocio. Incluye la interfaz Operacion y una clase independiente para cada operación matemática, aplicando el patrón de estrategia.&#10;&#10;edu.miguel.gonzalez.actividad2.ui: Gestiona la interfaz de usuario por consola, mostrando el menú, validando entradas y ejecutando las operaciones seleccionadas.&#10;&#10;Main: Clase principal que ejecuta el programa.&#10;&#10;Características técnicas:&#10;&#10;Programación orientada a objetos&#10;Uso de interfaces para abstraer operaciones&#10;Documentación completa con JavaDoc&#10;Manejo de excepciones (división por cero, logaritmos inválidos, etc.)&#10;Validación de entrada de datos&#10;&#10;Incluye diagrama de clases que demuestra el funcionamiento del programa.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculadora Avanzada en Java&#10;Descripción:&#10;&#10;Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas. El programa solicita al usuario que elija una operación del menú, ingrese dos números y muestra el resultado correspondiente.&#10;&#10;Operaciones disponibles:&#10;&#10;Suma&#10;Resta&#10;Multiplicación&#10;División&#10;Potencia (a elevado a b)&#10;Raíz (raíz de índice b del número a)&#10;Logaritmo (logaritmo de a en base b)&#10;Módulo (resto de la división)&#10;Estructura del proyecto:&#10;&#10;El programa está organizado en 2 packages principales:&#10;&#10;edu.miguel.gonzalez.actividad2.proceso: Contiene la lógica de negocio. Incluye la interfaz Operacion y una clase independiente para cada operación matemática, aplicando el patrón de estrategia.&#10;&#10;edu.miguel.gonzalez.actividad2.ui: Gestiona la interfaz de usuario por consola, mostrando el menú, validando entradas y ejecutando las operaciones seleccionadas.&#10;&#10;Main: Clase principal que ejecuta el programa.&#10;&#10;Características técnicas:&#10;&#10;Programación orientada a objetos&#10;Uso de interfaces para abstraer operaciones&#10;Documentación completa con JavaDoc&#10;Manejo de excepciones (división por cero, logaritmos inválidos, etc.)&#10;Validación de entrada de datos&#10;&#10;Incluye diagrama de clases que demuestra el funcionamiento del programa.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/Java/src/Data/Vehiculo.java</url>
+          <line>5</line>
+          <properties field="modelo" class="Data.Vehiculo" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/potencia.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
