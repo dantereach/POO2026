@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="574a6cb6-327a-45ee-ae36-cee60368626e" name="Changes" comment="Calculadora Avanzada en Java&#10;Descripción:&#10;&#10;Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas. El programa solicita al usuario que elija una operación del menú, ingrese dos números y muestra el resultado correspondiente.&#10;&#10;Operaciones disponibles:&#10;&#10;Suma&#10;Resta&#10;Multiplicación&#10;División&#10;Potencia (a elevado a b)&#10;Raíz (raíz de índice b del número a)&#10;Logaritmo (logaritmo de a en base b)&#10;Módulo (resto de la división)&#10;Estructura del proyecto:&#10;&#10;El programa está organizado en 2 packages principales:&#10;&#10;edu.miguel.gonzalez.actividad2.proceso: Contiene la lógica de negocio. Incluye la interfaz Operacion y una clase independiente para cada operación matemática, aplicando el patrón de estrategia.&#10;&#10;edu.miguel.gonzalez.actividad2.ui: Gestiona la interfaz de usuario por consola, mostrando el menú, validando entradas y ejecutando las operaciones seleccionadas.&#10;&#10;Main: Clase principal que ejecuta el programa.&#10;&#10;Características técnicas:&#10;&#10;Programación orientada a objetos&#10;Uso de interfaces para abstraer operaciones&#10;Documentación completa con JavaDoc&#10;Manejo de excepciones (división por cero, logaritmos inválidos, etc.)&#10;Validación de entrada de datos&#10;&#10;Incluye diagrama de clases que demuestra el funcionamiento del programa.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/calculadora.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/logaritmo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/logaritmo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/modulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/modulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/multiplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/multiplicacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/operacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/operacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/potencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/potencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/raiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/raiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/resta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/resta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/suma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/suma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/ui/calculadoraUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/ui/calculadoraUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/Logaritmo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/Modulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/Multiplicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/Operacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/Potencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/Raiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/Resta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/Suma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/division.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/logaritmo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/modulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/multiplicacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/operacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/potencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/raiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/resta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miguel/gonzalez/actividad2/proceso/suma.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +37,21 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Actividad1" />
+        <entry key="$PROJECT_DIR$" value="Actividad2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="38LDDNmFUJTIRhvmBtXj9zpr9pT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +62,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Actividad2&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Actividad-2&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/deck/IdeaProjects/POO2026/src&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/home/deck/IdeaProjects/POO2026/src/Main.java&quot;,
@@ -143,7 +155,31 @@
       <option name="project" value="LOCAL" />
       <updated>1768880712751</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Calculadora Avanzada en Java&#10;Descripción:&#10;&#10;Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas. El programa solicita al usuario que elija una operación del menú, ingrese dos números y muestra el resultado correspondiente.&#10;&#10;Operaciones disponibles:&#10;&#10;Suma&#10;Resta&#10;Multiplicación&#10;División&#10;Potencia (a elevado a b)&#10;Raíz (raíz de índice b del número a)&#10;Logaritmo (logaritmo de a en base b)&#10;Módulo (resto de la división)&#10;Estructura del proyecto:&#10;&#10;El programa está organizado en 2 packages principales:&#10;&#10;edu.miguel.gonzalez.actividad2.proceso: Contiene la lógica de negocio. Incluye la interfaz Operacion y una clase independiente para cada operación matemática, aplicando el patrón de estrategia.&#10;&#10;edu.miguel.gonzalez.actividad2.ui: Gestiona la interfaz de usuario por consola, mostrando el menú, validando entradas y ejecutando las operaciones seleccionadas.&#10;&#10;Main: Clase principal que ejecuta el programa.&#10;&#10;Características técnicas:&#10;&#10;Programación orientada a objetos&#10;Uso de interfaces para abstraer operaciones&#10;Documentación completa con JavaDoc&#10;Manejo de excepciones (división por cero, logaritmos inválidos, etc.)&#10;Validación de entrada de datos&#10;&#10;Incluye diagrama de clases que demuestra el funcionamiento del programa.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
+      <option name="closed" value="true" />
+      <created>1768883053223</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1768883053223</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Calculadora Avanzada en Java&#10;Descripción:&#10;&#10;Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas. El programa solicita al usuario que elija una operación del menú, ingrese dos números y muestra el resultado correspondiente.&#10;&#10;Operaciones disponibles:&#10;&#10;Suma&#10;Resta&#10;Multiplicación&#10;División&#10;Potencia (a elevado a b)&#10;Raíz (raíz de índice b del número a)&#10;Logaritmo (logaritmo de a en base b)&#10;Módulo (resto de la división)&#10;Estructura del proyecto:&#10;&#10;El programa está organizado en 2 packages principales:&#10;&#10;edu.miguel.gonzalez.actividad2.proceso: Contiene la lógica de negocio. Incluye la interfaz Operacion y una clase independiente para cada operación matemática, aplicando el patrón de estrategia.&#10;&#10;edu.miguel.gonzalez.actividad2.ui: Gestiona la interfaz de usuario por consola, mostrando el menú, validando entradas y ejecutando las operaciones seleccionadas.&#10;&#10;Main: Clase principal que ejecuta el programa.&#10;&#10;Características técnicas:&#10;&#10;Programación orientada a objetos&#10;Uso de interfaces para abstraer operaciones&#10;Documentación completa con JavaDoc&#10;Manejo de excepciones (división por cero, logaritmos inválidos, etc.)&#10;Validación de entrada de datos&#10;&#10;Incluye diagrama de clases que demuestra el funcionamiento del programa.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
+      <option name="closed" value="true" />
+      <created>1768883205550</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1768883205550</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Calculadora Avanzada en Java&#10;Descripción:&#10;&#10;Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas. El programa solicita al usuario que elija una operación del menú, ingrese dos números y muestra el resultado correspondiente.&#10;&#10;Operaciones disponibles:&#10;&#10;Suma&#10;Resta&#10;Multiplicación&#10;División&#10;Potencia (a elevado a b)&#10;Raíz (raíz de índice b del número a)&#10;Logaritmo (logaritmo de a en base b)&#10;Módulo (resto de la división)&#10;Estructura del proyecto:&#10;&#10;El programa está organizado en 2 packages principales:&#10;&#10;edu.miguel.gonzalez.actividad2.proceso: Contiene la lógica de negocio. Incluye la interfaz Operacion y una clase independiente para cada operación matemática, aplicando el patrón de estrategia.&#10;&#10;edu.miguel.gonzalez.actividad2.ui: Gestiona la interfaz de usuario por consola, mostrando el menú, validando entradas y ejecutando las operaciones seleccionadas.&#10;&#10;Main: Clase principal que ejecuta el programa.&#10;&#10;Características técnicas:&#10;&#10;Programación orientada a objetos&#10;Uso de interfaces para abstraer operaciones&#10;Documentación completa con JavaDoc&#10;Manejo de excepciones (división por cero, logaritmos inválidos, etc.)&#10;Validación de entrada de datos&#10;&#10;Incluye diagrama de clases que demuestra el funcionamiento del programa.&#10;&#10;Autor:Miguel Alexandro Gonzalez Arellano">
+      <option name="closed" value="true" />
+      <created>1768883335483</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1768883335483</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

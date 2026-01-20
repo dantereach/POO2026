@@ -2,7 +2,6 @@ package edu.miguel.gonzalez.actividad2.proceso;
 
 /**
  * Clase que implementa la operación de raíz.
- * Calcula la raíz de índice b del número a
  */
 public class raiz implements operacion {
 
@@ -20,24 +19,17 @@ public class raiz implements operacion {
         }
 
         division div = new division();
-        resta resta = new resta();
         suma suma = new suma();
         multiplicacion mult = new multiplicacion();
         potencia pot = new potencia();
 
-        // Para raíz:  a^(1/b)
-        // Usamos aproximación iterativa
-        double x = a;
+        double x = 1;
 
-        // Método 2 (GENUINAMENTE ES ESTO NECESARIO????)
-        // x_nuevo = ((n-1)*x + a/x^(n-1)) / n
-        for (int i = 0; i < 20; i++) {
-            double xPotencia = pot.ejecutar(x, resta.ejecutar(b, 1));
-            double numerador = suma.ejecutar(
-                    mult.ejecutar(resta.ejecutar(b, 1), x),
-                    div.ejecutar(a, xPotencia)
-            );
-            x = div.ejecutar(numerador, b);
+        for (int i = 0; i < 10; i++) {
+            double xPotencia = pot.ejecutar(x, b - 1);
+            double temp = div.ejecutar(a, xPotencia);
+            temp = suma.ejecutar(temp, mult. ejecutar(b - 1, x));
+            x = div.ejecutar(temp, b);
         }
 
         return x;
