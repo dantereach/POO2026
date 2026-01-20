@@ -1,4 +1,4 @@
-package edu.miguel.gonzalez.actividad2.proceso;
+package edu. miguel.gonzalez.actividad2.proceso;
 
 /**
  * Interfaz que representa una operación matemática

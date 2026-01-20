@@ -6,9 +6,12 @@ package edu.miguel.gonzalez.actividad2.proceso;
 public class resta implements operacion {
 
     /**
-     * {@inheritDoc}
+     * Resta dos números.
+     *
+     * @param a minuendo
+     * @param b sustraendo
+     * @return la resta de a menos b
      */
-    @Override
     public double ejecutar(double a, double b) {
         return a - b;
     }

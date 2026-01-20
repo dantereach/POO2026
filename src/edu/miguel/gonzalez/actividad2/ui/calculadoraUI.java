@@ -1,14 +1,7 @@
 package edu.miguel.gonzalez.actividad2.ui;
 
-import edu.miguel.gonzalez.actividad2.proceso.operacion;
-import edu.miguel.gonzalez.actividad2.proceso.suma;
-import edu.miguel.gonzalez.actividad2.proceso.resta;
-import edu.miguel.gonzalez.actividad2.proceso.multiplicacion;
-import edu.miguel.gonzalez.actividad2.proceso.division;
-import edu.miguel.gonzalez.actividad2.proceso.potencia;
-import edu.miguel.gonzalez.actividad2.proceso.raiz;
-import edu.miguel.gonzalez.actividad2.proceso.logaritmo;
-import edu.miguel.gonzalez.actividad2.proceso.modulo;
+import edu.miguel.gonzalez.actividad2.proceso.*;
+
 import java.util.Scanner;
 
 /**

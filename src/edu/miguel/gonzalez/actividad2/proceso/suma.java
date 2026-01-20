@@ -6,9 +6,12 @@ package edu.miguel.gonzalez.actividad2.proceso;
 public class suma implements operacion {
 
     /**
-     * {@inheritDoc}
+     * Suma dos números.
+     *
+     * @param a primer sumando
+     * @param b segundo sumando
+     * @return la suma de a y b
      */
-    @Override
     public double ejecutar(double a, double b) {
         return a + b;
     }

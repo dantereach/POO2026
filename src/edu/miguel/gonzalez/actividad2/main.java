@@ -6,7 +6,7 @@ import edu.miguel.gonzalez.actividad2.ui.calculadoraUI;
  * Clase principal que contiene el método {@code main}
  * para ejecutar la aplicación de la calculadora.
  */
-public class Main {
+public class main {
 
     /**
      * Punto de entrada de la aplicación.
