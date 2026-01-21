@@ -1,4 +1,4 @@
-Actividad1
+Actividad 1 Y 2
 # Calculadora Avanzada en Java
 
 Aplicación de consola que implementa una calculadora con operaciones matemáticas básicas y avanzadas.  El programa presenta un menú interactivo donde el usuario puede elegir entre diferentes operaciones, ingresar dos números y obtener el resultado.
